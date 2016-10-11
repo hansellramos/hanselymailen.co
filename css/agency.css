@@ -208,6 +208,10 @@ header {
       line-height: 50px;
       margin-bottom: 25px; }
 
+@media (max-width: 400px) {
+  header .intro-text .logo-banner {
+    width: 75%;
+    height: auto; } }
 @media (min-width: 768px) {
   header .intro-text {
     padding-top: 300px;
